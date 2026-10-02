@@ -1,10 +1,10 @@
-Mursalimova Karima
-Group: IT-2502
+##Mursalimova Karima
+##Group: IT-2502
 
 
-Part 1. Media Queries
+##Part 1. Media Queries
 
-Task 0. Responsive Typography
+#Task 0. Responsive Typography
 
 <img width="598" height="461" alt="image" src="https://github.com/user-attachments/assets/4fdeed5a-076b-48ba-9e4d-e8c6e7a1a272" />
 
@@ -30,7 +30,7 @@ DESKTOP (1200px)
 <img width="813" height="328" alt="image" src="https://github.com/user-attachments/assets/4fe2de11-0fa2-40c1-9c06-95ec5b90c7a0" />
 
 
-Task 1. Responsive Layout with Media Queries
+#Task 1. Responsive Layout with Media Queries
 
 
 <img width="436" height="147" alt="image" src="https://github.com/user-attachments/assets/a47210d7-1e65-4a33-af42-dffd0606fcec" />
@@ -62,9 +62,9 @@ DESKTOP (1200px)
 all three boxes side by side
 
 
-Part 2. Bootstrap Grid System
+##Part 2. Bootstrap Grid System
 
-Task 2. Bootstrap Responsive Columns
+#Task 2. Bootstrap Responsive Columns
 
 <img width="804" height="41" alt="image" src="https://github.com/user-attachments/assets/dbbc03ba-e527-4f23-ac7b-5fd0a54d7613" />
 
@@ -93,7 +93,7 @@ DESKTOP (1200px)
 three equal columns (4 + 4 + 4 = 12)
 
 
-Task 3. Bootstrap Navigation Bar
+#Task 3. Bootstrap Navigation Bar
 
 <img width="806" height="421" alt="image" src="https://github.com/user-attachments/assets/1ad0540c-3798-46a5-8b48-40120d29b7da" />
 
@@ -101,9 +101,9 @@ Task 3. Bootstrap Navigation Bar
 
 Created a responsive navigation bar using Bootstrap components.
 
-- **Logo** on the left (`navbar-brand`)
-- **Links** on the right (`navbar-nav` + `ms-auto`)
-- **Hamburger menu** on screens smaller than 992px (`navbar-toggler` + `collapse`)
+- Logo on the left (`navbar-brand`)
+- Links on the right (`navbar-nav` + `ms-auto`)
+- Hamburger menu on screens smaller than 992px (`navbar-toggler` + `collapse`)
 
 
 MOBILE (375px)
@@ -129,20 +129,20 @@ DESKTOP (1200px)
 links visible, no hamburger
 
 
-Part 3. Combined Project
+##Part 3. Combined Project
 
-Task 4. Responsive Portfolio Page
+#Task 4. Responsive Portfolio Page
 
 Added a portfolio section at the bottom of `index.html` combining
 Bootstrap grid, media queries, and a responsive navbar.
 
 **Structure:**
 
-1. **Header:** Bootstrap navbar with logo + links + hamburger menu.
-2. **Main section:** two parts on desktop.
-   - **Left:** project cards using Bootstrap grid (`col-md-6 col-lg-4`).
-   - **Right:** sidebar with personal info and contacts.
-3. **Footer:** full-width dark footer at the bottom.
+1. Header: Bootstrap navbar with logo + links + hamburger menu.
+2. Main section: two parts on desktop.
+   - Left: project cards using Bootstrap grid (`col-md-6 col-lg-4`).
+   - Right: sidebar with personal info and contacts.
+3. Footer: full-width dark footer at the bottom.
 
 MOBILE (375px)
 
@@ -157,3 +157,17 @@ TABLET (768px)
 DESKTOP (1200px)
 
 <img width="777" height="432" alt="image" src="https://github.com/user-attachments/assets/10a9690b-7b96-4be0-8884-e064e265d53f" />
+
+##Summary of Work Process
+
+In this assignment I learned how to build responsive web pages using
+CSS media queries and Bootstrap 5.3.
+
+- Task 0: Used media queries to change font sizes for mobile, tablet, and desktop.
+- Task 1: Built a 3-box layout with `flex` and media queries — 1 / 2 / 3 boxes per row.
+- Task 2: Rebuilt the same layout using Bootstrap's 12-column grid (`col-12 col-md-6 col-lg-4`).
+- Task 3: Created a responsive navbar with logo, links, and a hamburger menu.
+- Task 4: Combined everything into a portfolio page with cards, sidebar, and footer.
+
+Main challenge: I forgot to add `box-sizing: border-box`, so boxes were too wide
+and didn't fit in one row. After fixing it, everything worked correctly.
