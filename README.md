@@ -172,3 +172,5 @@ CSS media queries and Bootstrap 5.3.
 
 Main challenge: I forgot to add `box-sizing: border-box`, so boxes were too wide
 and didn't fit in one row. After fixing it, everything worked correctly.
+
+This is the website https://karimamur07.github.io/Assignment3-responsive/ 
