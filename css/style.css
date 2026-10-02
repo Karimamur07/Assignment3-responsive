@@ -1,0 +1,149 @@
+/* Basic page style */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #222;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Default font sizes (for mobile phones) */
+
+body {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+/* Tablet styles (from 768px) */
+
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+
+/* Desktop styles (from 1024px) */
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+}
+
+
+/*  Task 1: Three boxes layout */
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.box {
+  background-color: #4a90e2;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 18px;
+  box-sizing: border-box;
+
+  /* Default (mobile): full width */
+  width: 100%;
+}
+
+/* Tablet styles (from 768px)
+   → two boxes per row */
+
+@media (min-width: 768px) {
+  .box {
+    width: calc(50% - 5px);
+  }
+}
+
+/*    Desktop styles (from 992px)
+   → three boxes per row */
+
+@media (min-width: 992px) {
+  .box {
+    width: calc(33.333% - 7px);
+  }
+}
+
+/*  Task 2: Bootstrap columns */
+
+.column-box {
+  background-color: #e67e22;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/* Task 4: Portfolio page */
+
+.card-img-top {
+  height: 160px;
+  object-fit: cover;
+}
+
+.portfolio-sidebar {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.portfolio-sidebar h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer {
+  font-size: 14px;
+}
